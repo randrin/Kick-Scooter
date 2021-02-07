@@ -1,7 +1,7 @@
 {
   "name": "kick-scooter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Feet Kick Scooter of any king of persons (Child, Women, Men)",
   "main": "index.js",
   "scripts": {
     "build": "cd frontend && npm install && npm run build"
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/randrin/Kick-Scooter.git"
   },
-  "author": "",
+  "author": "Randrin Nzeukang",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/randrin/Kick-Scooter/issues"
