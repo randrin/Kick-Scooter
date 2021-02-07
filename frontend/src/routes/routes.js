@@ -1,8 +1,13 @@
 import { Route, Switch } from "react-router-dom";
 import HomeScreen from "../screens/HomeScreen";
+import AboutScreen from "../screens/store/AboutScreen";
 import SigninScreen from "../screens/store/auth/SigninScreen";
 import CartScreen from "../screens/store/CartScreen";
 import CheckoutScreen from "../screens/store/CheckoutScreen";
+import ContactScreen from "../screens/store/ContactScreen";
+import Error404Screen from "../screens/store/Error404Screen";
+import FaqScreen from "../screens/store/FaqScreen";
+import QuickViewScreen from "../screens/store/QuickViewScreen";
 
 
 const Routes = () => (
@@ -11,15 +16,14 @@ const Routes = () => (
       <Route exact path="/cart/:productId?" strict component={CartScreen} />
       <Route exact path="/checkout" strict component={CheckoutScreen} />
       <Route exact path="/signin" strict component={SigninScreen} />
+      <Route exact path="/view" strict component={QuickViewScreen} />
+      <Route exact path="/contact" strict component={ContactScreen} />
+      <Route exact path="/about" strict component={AboutScreen} />
+      <Route exact path="/faq" strict component={FaqScreen} />
+      <Route component={Error404Screen} />
       {/* <Route exact path="/page/:pageNumber/size/:pageSize" strict component={HomeScreen} />
       <Route exact path="/product/:productId" strict component={ProductScreen} />
       <Route exact path="/product/:productId/edit" strict component={ProductEditScreen} />
-    
-      
-      <Route exact path="/register" strict component={RegisterScreen} />
-      <Route exact path="/shipping" strict component={ShippingAddressScreen} />
-      <Route exact path="/payment" strict component={PaymentMethodScreen} />
-      <Route exact path="/placeorder" strict component={PlaceOrderScreen} />
       <Route exact path="/order/:orderId" strict component={OrderScreen} />
       <Route exact path="/orders/history" strict component={OrderHistoryScreeen} />
       <PrivateRoute exact path="/profile" strict component={ProfileScreen} />
@@ -38,7 +42,7 @@ const Routes = () => (
       <Route exact path="/search/category/:category" strict component={SearchScreen} />
       <Route exact path="/search/category/:category/name/:name" strict component={SearchScreen} />
       <Route exact path="/search/category/:category/name/:name/min/:min/max/:max/rating/:rating/order/:order/size/:pageSize/page/:pageNumber" strict component={SearchScreen} />
-      <Route component={Error404} /> */}
+*/}
     </Switch>
   );
   

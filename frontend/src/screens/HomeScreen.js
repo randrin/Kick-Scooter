@@ -4,6 +4,7 @@ import BannerScreen from "./inc/BannerScreen";
 import BlogScreen from "./inc/BlogScreen";
 import CategoriesTypeScreen from "./inc/CategoriesTypeScreen";
 import HeaderScreen from "./inc/HeaderScreen";
+import NewsLettersScreen from "./inc/NewsLettersScreen";
 import ServicesScreen from "./inc/ServicesScreen";
 import TopProductsScreen from "./inc/TopProductsScreen";
 
@@ -21,6 +22,7 @@ const HomeScreen = () => {
       <CategoriesTypeScreen />
       <TopProductsScreen />
       <BlogScreen />
+      <NewsLettersScreen />
     </main>
   );
 };

@@ -3,9 +3,9 @@ import React from "react";
 const SigninModalScreen = () => {
   return (
     <div
-      className="modal fade"
+      className="signin-wrapper modal fade"
       id="signin-modal"
-      tabindex="-1"
+      tabIndex="-1"
       role="dialog"
       style={{display: 'none'}}
       aria-hidden="true"
@@ -63,7 +63,7 @@ const SigninModalScreen = () => {
                   >
                     <form action="#">
                       <div className="form-group">
-                        <label for="singin-email">
+                        <label htmlFor="singin-email">
                           Username or email address *
                         </label>
                         <input
@@ -76,7 +76,7 @@ const SigninModalScreen = () => {
                       </div>
 
                       <div className="form-group">
-                        <label for="singin-password">Password *</label>
+                        <label htmlFor="singin-password">Password *</label>
                         <input
                           type="password"
                           className="form-control"
@@ -103,7 +103,7 @@ const SigninModalScreen = () => {
                           />
                           <label
                             className="custom-control-label"
-                            for="signin-remember"
+                            htmlFor="signin-remember"
                           >
                             Remember Me
                           </label>
@@ -114,7 +114,7 @@ const SigninModalScreen = () => {
                         </a>
                       </div>
                     </form>
-                    <div className="form-choice">
+                    {/* <div className="form-choice">
                       <p className="text-center">or sign in with</p>
                       <div className="row">
                         <div className="col-sm-6">
@@ -130,7 +130,7 @@ const SigninModalScreen = () => {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   <div
                     className="tab-pane fade active show"
@@ -140,7 +140,7 @@ const SigninModalScreen = () => {
                   >
                     <form action="#">
                       <div className="form-group">
-                        <label for="register-email">Your email address *</label>
+                        <label htmlFor="register-email">Your email address *</label>
                         <input
                           type="email"
                           className="form-control"
@@ -151,7 +151,7 @@ const SigninModalScreen = () => {
                       </div>
 
                       <div className="form-group">
-                        <label for="register-password">Password *</label>
+                        <label htmlFor="register-password">Password *</label>
                         <input
                           type="password"
                           className="form-control"
@@ -179,14 +179,14 @@ const SigninModalScreen = () => {
                           />
                           <label
                             className="custom-control-label"
-                            for="register-policy"
+                            htmlFor="register-policy"
                           >
                             I agree to the <a href="#">privacy policy</a> *
                           </label>
                         </div>
                       </div>
                     </form>
-                    <div className="form-choice">
+                    {/* <div className="form-choice">
                       <p className="text-center">or sign in with</p>
                       <div className="row">
                         <div className="col-sm-6">
@@ -202,7 +202,7 @@ const SigninModalScreen = () => {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

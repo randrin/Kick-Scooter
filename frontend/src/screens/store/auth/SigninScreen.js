@@ -17,7 +17,7 @@ const SigninScreen = () => {
       </nav>
 
       <div
-        className="login-page bg-image pt-8 pb-8 pt-md-12 pb-md-12 pt-lg-17 pb-lg-17"
+        className="signin-wrapper login-page bg-image pt-8 pb-8 pt-md-12 pb-md-12 pt-lg-17 pb-lg-17"
         style={{
           backgroundImage:
             "url(" + "assets/images/backgrounds/login-bg.jpg" + ")",
@@ -63,7 +63,7 @@ const SigninScreen = () => {
                 >
                   <form action="#">
                     <div className="form-group">
-                      <label for="singin-email-2">
+                      <label htmlFor="singin-email-2">
                         Username or email address *
                       </label>
                       <input
@@ -76,7 +76,7 @@ const SigninScreen = () => {
                     </div>
 
                     <div className="form-group">
-                      <label for="singin-password-2">Password *</label>
+                      <label htmlFor="singin-password-2">Password *</label>
                       <input
                         type="password"
                         className="form-control"
@@ -103,7 +103,7 @@ const SigninScreen = () => {
                         />
                         <label
                           className="custom-control-label"
-                          for="signin-remember-2"
+                          htmlFor="signin-remember-2"
                         >
                           Remember Me
                         </label>
@@ -114,7 +114,7 @@ const SigninScreen = () => {
                       </a>
                     </div>
                   </form>
-                  <div className="form-choice">
+                  {/* <div className="form-choice">
                     <p className="text-center">or sign in with</p>
                     <div className="row">
                       <div className="col-sm-6">
@@ -130,7 +130,7 @@ const SigninScreen = () => {
                         </a>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <div
                   className="tab-pane fade show active"
@@ -140,7 +140,7 @@ const SigninScreen = () => {
                 >
                   <form action="#">
                     <div className="form-group">
-                      <label for="register-email-2">Your email address *</label>
+                      <label htmlFor="register-email-2">Your email address *</label>
                       <input
                         type="email"
                         className="form-control"
@@ -151,7 +151,7 @@ const SigninScreen = () => {
                     </div>
 
                     <div className="form-group">
-                      <label for="register-password-2">Password *</label>
+                      <label htmlFor="register-password-2">Password *</label>
                       <input
                         type="password"
                         className="form-control"
@@ -179,14 +179,14 @@ const SigninScreen = () => {
                         />
                         <label
                           className="custom-control-label"
-                          for="register-policy-2"
+                          htmlFor="register-policy-2"
                         >
                           I agree to the <a href="#">privacy policy</a> *
                         </label>
                       </div>
                     </div>
                   </form>
-                  <div className="form-choice">
+                  {/* <div className="form-choice">
                     <p className="text-center">or sign in with</p>
                     <div className="row">
                       <div className="col-sm-6">
@@ -202,7 +202,7 @@ const SigninScreen = () => {
                         </a>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

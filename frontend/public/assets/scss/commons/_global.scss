@@ -1,0 +1,14 @@
+// Scrollbar
+::-webkit-scrollbar-thumb {
+    background-color: var(--kickscooter-secondary);
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+.form-required {
+    font-weight: 600;
+    color: #f08040;
+}

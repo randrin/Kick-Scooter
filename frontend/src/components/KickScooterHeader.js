@@ -63,10 +63,10 @@ const KickScooterHeader = () => {
                     </a>
                   </li> */}
                   <li>
-                    <a href="about.html">About Us</a>
+                    <Link to="/about">About Us</Link>
                   </li>
                   <li>
-                    <a href="contact.html">Contact Us</a>
+                    <Link to="/contact">Contact Us</Link>
                   </li>
                   <li>
                     <a href="#signin-modal" data-toggle="modal">
@@ -715,7 +715,7 @@ const KickScooterHeader = () => {
                     </div>
                   </div>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#" className="sf-with-ul">
                     Pages
                   </a>
@@ -762,8 +762,8 @@ const KickScooterHeader = () => {
                       <a href="coming-soon.html">Coming Soon</a>
                     </li>
                   </ul>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <a href="blog.html" className="sf-with-ul">
                     Blog
                   </a>
@@ -847,8 +847,8 @@ const KickScooterHeader = () => {
                       </ul>
                     </li>
                   </ul>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <a href="elements-list.html" className="sf-with-ul">
                     Elements
                   </a>
@@ -899,7 +899,7 @@ const KickScooterHeader = () => {
                       <a href="elements-icon-boxes.html">Icon Boxes</a>
                     </li>
                   </ul>
-                </li>
+                </li> */}
               </ul>
             </nav>
 

@@ -131,13 +131,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -191,13 +191,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -259,13 +259,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -330,13 +330,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -391,13 +391,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -450,13 +450,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -521,13 +521,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -587,13 +587,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -647,13 +647,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -706,13 +706,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -787,13 +787,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -846,13 +846,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -917,13 +917,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -977,13 +977,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -1062,13 +1062,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -1123,13 +1123,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -1191,13 +1191,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -1257,13 +1257,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -1317,13 +1317,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -1376,13 +1376,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -1445,13 +1445,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -1530,13 +1530,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -1601,13 +1601,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -1661,13 +1661,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -1729,13 +1729,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -1800,13 +1800,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -1861,13 +1861,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -1920,13 +1920,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -1986,13 +1986,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>
@@ -2046,13 +2046,13 @@ const TopProductsScreen = () => {
                       >
                         <span>add to cart</span>
                       </a>
-                      <a
+                      {/* <a
                         href="popup/quickView.html"
                         className="btn-product btn-quickview"
                         title="Quick view"
                       >
                         <span>quick view</span>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                 </div>

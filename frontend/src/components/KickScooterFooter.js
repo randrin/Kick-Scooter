@@ -3,48 +3,7 @@ import { Link } from "react-router-dom";
 
 const KickScooterFooter = () => {
   return (
-    <footer className="footer footer-dark">
-      <div
-        className="cta bg-image bg-dark pt-4 pb-5 mb-0"
-        style={{
-          backgroundImage:
-            "url(" + "assets/images/demos/demo-10/bg-2.jpg" + ")",
-        }}
-      >
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-sm-10 col-md-8 col-lg-6">
-              <div className="cta-heading text-center">
-                <h3 className="cta-title text-white">
-                  Subscribe for Our Newsletter
-                </h3>
-                <p className="cta-desc text-white">
-                  and receive <span className="font-weight-normal">$20 coupon</span>{" "}
-                  for first shopping
-                </p>
-              </div>
-
-              <form action="#">
-                <div className="input-group input-group-round">
-                  <input
-                    type="email"
-                    className="form-control form-control-white"
-                    placeholder="Enter your Email Address"
-                    aria-label="Email Adress"
-                    required
-                  />
-                  <div className="input-group-append">
-                    <button className="btn btn-white" type="submit">
-                      <span>Subscribe</span>
-                      <i className="icon-long-arrow-right"></i>
-                    </button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
+    <footer className="footer-wrapper footer footer-dark">
       <div className="footer-middle">
         <div className="container">
           <div className="row">
@@ -113,16 +72,16 @@ const KickScooterFooter = () => {
 
                 <ul className="widget-list">
                   <li>
-                    <a href="about.html">About Molla</a>
+                    <Link to="/about">About Us</Link>
                   </li>
                   <li>
                     <a href="#">How to shop on Molla</a>
                   </li>
                   <li>
-                    <a href="faq.html">FAQ</a>
+                    <Link to="/faq">FAQ</Link>
                   </li>
                   <li>
-                    <a href="contact.html">Contact us</a>
+                    <Link to="/contact">Contact us</Link>
                   </li>
                   <li>
                     <Link to="/signin">Log in</Link>
@@ -169,9 +128,9 @@ const KickScooterFooter = () => {
                   <li>
                     <Link to="/cart">View Cart</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="#">My Wishlist</a>
-                  </li>
+                  </li> */}
                   <li>
                     <a href="#">Track My Order</a>
                   </li>
