@@ -1,0 +1,19 @@
+{
+  "name": "kick-scooter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randrin/Kick-Scooter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randrin/Kick-Scooter/issues"
+  },
+  "homepage": "https://github.com/randrin/Kick-Scooter#readme"
+}
