@@ -1,15 +1,21 @@
 import { Route, Switch } from "react-router-dom";
 import HomeScreen from "../screens/HomeScreen";
+import SigninScreen from "../screens/store/auth/SigninScreen";
+import CartScreen from "../screens/store/CartScreen";
+import CheckoutScreen from "../screens/store/CheckoutScreen";
 
 
 const Routes = () => (
     <Switch>
       <Route exact path="/" strict component={HomeScreen} />
+      <Route exact path="/cart/:productId?" strict component={CartScreen} />
+      <Route exact path="/checkout" strict component={CheckoutScreen} />
+      <Route exact path="/signin" strict component={SigninScreen} />
       {/* <Route exact path="/page/:pageNumber/size/:pageSize" strict component={HomeScreen} />
       <Route exact path="/product/:productId" strict component={ProductScreen} />
       <Route exact path="/product/:productId/edit" strict component={ProductEditScreen} />
-      <Route exact path="/cart/:productId?" strict component={CartScreen} />
-      <Route exact path="/signin" strict component={SigninScreen} />
+    
+      
       <Route exact path="/register" strict component={RegisterScreen} />
       <Route exact path="/shipping" strict component={ShippingAddressScreen} />
       <Route exact path="/payment" strict component={PaymentMethodScreen} />

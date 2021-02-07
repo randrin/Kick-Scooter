@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const KickScooterHeader = () => {
   return (
@@ -6,7 +7,14 @@ const KickScooterHeader = () => {
       <div className="header-top">
         <div className="container">
           <div className="header-left">
-            <div className="header-dropdown">
+            <ul className="kick-scooter-menu-left">
+              <li>
+                <a href="tel:#">
+                    <i className="icon-phone"></i>Call: +0123 456 789
+                </a>
+              </li>
+            </ul>
+            {/* <div className="header-dropdown">
               <a href="#">USD</a>
               <div className="header-menu">
                 <ul>
@@ -18,9 +26,9 @@ const KickScooterHeader = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
-            <div className="header-dropdown">
+            {/* <div className="header-dropdown">
               <a href="#">Eng</a>
               <div className="header-menu">
                 <ul>
@@ -35,7 +43,7 @@ const KickScooterHeader = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="header-right">
@@ -43,17 +51,17 @@ const KickScooterHeader = () => {
               <li>
                 <a href="#">Links</a>
                 <ul>
-                  <li>
+                  {/* <li>
                     <a href="tel:#">
                       <i className="icon-phone"></i>Call: +0123 456 789
                     </a>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <a href="wishlist.html">
                       <i className="icon-heart-o"></i>My Wishlist{" "}
                       <span>(3)</span>
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a href="about.html">About Us</a>
                   </li>
@@ -80,7 +88,7 @@ const KickScooterHeader = () => {
               <i className="icon-bars"></i>
             </button>
 
-            <a href="index.html" className="logo">
+            <a href="/" className="logo">
               <img
                 src="assets/images/demos/demo-10/logo.png"
                 alt="Molla Logo"
@@ -94,7 +102,7 @@ const KickScooterHeader = () => {
             <nav className="main-nav">
               <ul className="menu sf-arrows">
                 <li className="megamenu-container active">
-                  <a href="index.html" className="sf-with-ul">
+                  <a href="/" className="sf-with-ul">
                     Home
                   </a>
 
@@ -107,7 +115,12 @@ const KickScooterHeader = () => {
                           <a href="index-1.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/1.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/1.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">
                               01 - furniture store
@@ -119,7 +132,12 @@ const KickScooterHeader = () => {
                           <a href="index-2.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/2.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/2.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">
                               02 - furniture store
@@ -131,7 +149,12 @@ const KickScooterHeader = () => {
                           <a href="index-3.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/3.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/3.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">
                               03 - electronic store
@@ -143,7 +166,12 @@ const KickScooterHeader = () => {
                           <a href="index-4.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/4.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/4.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">
                               04 - electronic store
@@ -155,7 +183,12 @@ const KickScooterHeader = () => {
                           <a href="index-5.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/5.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/5.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">
                               05 - fashion store
@@ -167,7 +200,12 @@ const KickScooterHeader = () => {
                           <a href="index-6.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/6.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/6.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">
                               06 - fashion store
@@ -179,7 +217,12 @@ const KickScooterHeader = () => {
                           <a href="index-7.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/7.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/7.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">
                               07 - fashion store
@@ -191,7 +234,12 @@ const KickScooterHeader = () => {
                           <a href="index-8.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/8.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/8.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">
                               08 - fashion store
@@ -203,7 +251,12 @@ const KickScooterHeader = () => {
                           <a href="index-9.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/9.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/9.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">
                               09 - fashion store
@@ -215,7 +268,12 @@ const KickScooterHeader = () => {
                           <a href="index-10.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/10.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/10.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">10 - shoes store</span>
                           </a>
@@ -225,7 +283,12 @@ const KickScooterHeader = () => {
                           <a href="index-11.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/11.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/11.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">
                               11 - furniture simple store
@@ -237,7 +300,12 @@ const KickScooterHeader = () => {
                           <a href="index-12.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/12.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/12.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">
                               12 - fashion simple store
@@ -249,7 +317,12 @@ const KickScooterHeader = () => {
                           <a href="index-13.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/13.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/13.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">13 - market</span>
                           </a>
@@ -259,7 +332,12 @@ const KickScooterHeader = () => {
                           <a href="index-14.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/14.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/14.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">
                               14 - market fullwidth
@@ -271,7 +349,12 @@ const KickScooterHeader = () => {
                           <a href="index-15.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/15.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/15.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">15 - lookbook 1</span>
                           </a>
@@ -281,7 +364,12 @@ const KickScooterHeader = () => {
                           <a href="index-16.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/16.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/16.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">16 - lookbook 2</span>
                           </a>
@@ -291,7 +379,12 @@ const KickScooterHeader = () => {
                           <a href="index-17.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/17.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/17.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">
                               17 - fashion store
@@ -303,7 +396,12 @@ const KickScooterHeader = () => {
                           <a href="index-18.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/18.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/18.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">
                               18 - fashion store (with sidebar)
@@ -315,7 +413,12 @@ const KickScooterHeader = () => {
                           <a href="index-19.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/19.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/19.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">19 - games store</span>
                           </a>
@@ -325,7 +428,12 @@ const KickScooterHeader = () => {
                           <a href="index-20.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/20.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/20.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">20 - book store</span>
                           </a>
@@ -335,7 +443,12 @@ const KickScooterHeader = () => {
                           <a href="index-21.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/21.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/21.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">21 - sport store</span>
                           </a>
@@ -345,7 +458,12 @@ const KickScooterHeader = () => {
                           <a href="index-22.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/22.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/22.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">22 - tools store</span>
                           </a>
@@ -355,7 +473,12 @@ const KickScooterHeader = () => {
                           <a href="index-23.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/23.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/23.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">
                               23 - fashion left navigation store
@@ -367,7 +490,12 @@ const KickScooterHeader = () => {
                           <a href="index-24.html">
                             <span
                               className="demo-bg"
-                              style={{backgroundImage: "url(" + 'assets/images/menu/demos/24.jpg' + ")"}}
+                              style={{
+                                backgroundImage:
+                                  "url(" +
+                                  "assets/images/menu/demos/24.jpg" +
+                                  ")",
+                              }}
                             ></span>
                             <span className="demo-title">
                               24 - extreme sport store
@@ -781,7 +909,7 @@ const KickScooterHeader = () => {
               </a>
               <form action="#" method="get">
                 <div className="header-search-wrapper">
-                  <label for="q" className="sr-only">
+                  <label htmlFor="q" className="sr-only">
                     Search
                   </label>
                   <input
@@ -872,13 +1000,13 @@ const KickScooterHeader = () => {
                 </div>
 
                 <div className="dropdown-cart-action">
-                  <a href="cart.html" className="btn btn-primary">
+                  <Link to="/cart" className="btn btn-primary">
                     View Cart
-                  </a>
-                  <a href="checkout.html" className="btn btn-outline-primary-2">
+                  </Link>
+                  <Link to="/checkout" className="btn btn-outline-primary-2">
                     <span>Checkout</span>
                     <i className="icon-long-arrow-right"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -1,11 +1,28 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import ArrivalScreen from "./inc/ArrivalScreen";
+import BannerScreen from "./inc/BannerScreen";
+import BlogScreen from "./inc/BlogScreen";
+import CategoriesTypeScreen from "./inc/CategoriesTypeScreen";
+import HeaderScreen from "./inc/HeaderScreen";
+import ServicesScreen from "./inc/ServicesScreen";
+import TopProductsScreen from "./inc/TopProductsScreen";
 
 const HomeScreen = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
 
-export default HomeScreen
+    useEffect(() => {
+        // window.location.reload(true);
+    }, [])
+  return (
+    <main>
+      <HeaderScreen />
+      <BannerScreen />
+      <ServicesScreen />
+      <ArrivalScreen />
+      <CategoriesTypeScreen />
+      <TopProductsScreen />
+      <BlogScreen />
+    </main>
+  );
+};
+
+export default HomeScreen;
